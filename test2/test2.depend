@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1499310683 source:d:\c_workplace\test2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"sushu.c"
+
+1499309122 d:\c_workplace\test2\demo01.c
+
+1499310696 d:\c_workplace\test2\sushu.c
+
