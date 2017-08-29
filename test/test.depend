@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1502376771 source:d:\c_workplace\test\demo01.c
+	<stdio.h>
+	"header.h"
+	"Linear.h"
+
+1502376030 d:\c_workplace\test\header.h
+
+1502376585 d:\c_workplace\test\linear.h
+
