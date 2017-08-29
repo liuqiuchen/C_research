@@ -20,3 +20,21 @@ typedef struct
 }SqTable;
 */
 
+/*
+在有序表T中，
+用二分查找法查找键值等于key的元素，
+变量low，high分别标记查找区间的下界和上界
+*/
+int SearchBin(SqTable T, int key)
+{
+	int low, hign, mid;
+	low = 1; high = T.n; // 置查找区间初值
+	while(low <= high)
+	{
+		mid = (low + high)/2;
+		if(T.elem[mid].key == key) return mid;
+		else if(T.elem[mid].key > key) high = mid - 1; // 在前半区间查找
+		else low = mid + 1; // 在后半区间查找
+	}
+	return 0; // 查找不成功，则返回0
+}
