@@ -99,10 +99,26 @@ SOURCE=.\orderFind.c
 
 SOURCE=.\queue.c
 # End Source File
+# Begin Source File
+
+SOURCE=.\SearchBST.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\SearchBST.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SearchOpenHash.c
+# End Source File
 # End Group
 # Begin Group "Header Files"
 
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\BinTree.h
+# End Source File
 # Begin Source File
 
 SOURCE=.\Graph.h
@@ -110,6 +126,10 @@ SOURCE=.\Graph.h
 # Begin Source File
 
 SOURCE=.\Graphlk.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\HashTable.h
 # End Source File
 # Begin Source File
 

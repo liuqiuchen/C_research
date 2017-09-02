@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{F019A45C-5F4C-4B29-AD58-3D5636B52B71}</ProjectGuid>
+    <ProjectGuid>{B4C7FDF2-B7CF-482C-8499-E58E1CBC546D}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -121,15 +121,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="demo01.c" />
+    <ClCompile Include="halfFind.c" />
+    <ClCompile Include="orderFind.c" />
     <ClCompile Include="queue.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinTree.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="Graphlk.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="Linear.h" />
     <ClInclude Include="Lkqueue.h" />
     <ClInclude Include="Lkstack.h" />
+    <ClInclude Include="queue.h" />
     <ClInclude Include="SeqQue.h" />
     <ClInclude Include="Seqstack.h" />
+    <ClInclude Include="SqTable.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Lkqueue.asp" />
